@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* justify-content: center; */
+    color: rgb(255, 145, 0);
+    /* align-items: center; */
+    /* text-align: center; */
+    background-image: url("https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+}
+
+#image{
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    border: 2px solid  black;
+    background-image:url("https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg");
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: ; */
+
+}
+#image img{
+    margin-top: 10%;
+    width: 100%;
+    height: 50%;
+    /* background-image:url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg"); */
+    /* visibility: 50%; */
+
+    align-items: center;
+    justify-content: center;
+}
+#timer{
+    position: absolute;
+    margin-top: 160%;
+    width: 20%;
+    height: fit-content;
+    /* border: 1PX solid black; */
+    text-shadow: 2px 1px 1px  rgb(0, 0, 0);
+    /* text-decoration:rgb(126, 39, 24); */
+    /* justify-content: center; */
+    margin:  0 auto;
+}
+h2{
+    position: relative;
+    /* margin-top: 50%;  */
+    margin: 150% 75%;
+    font-size: 5.5vw;
+}
+#btn{
+    /* background-color: #7e2121; */
+    justify-content:space-between ;
+    /* align-items: center; */
+    margin: 0 auto;
+    /* align-items: center; */
+    height: 35px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+#btn button{
+    /* justify-content: space-between; */
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 20%;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1.9vmin;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 2px solid black;
+    
+}
